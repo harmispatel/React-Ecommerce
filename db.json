@@ -1,0 +1,228 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "user": {
+        "username": "Vansh Patel",
+        "email": "vanshpatel2505@gmail.com",
+        "password": "123456",
+        "confirmPassword": "123456",
+        "number": "9106792692",
+        "address": "9, Chitrakoot Near Aekta Tower - Vasna Berrage Road - Ahmedabad - 380007"
+      },
+      "id": 1
+    },
+    {
+      "user": {
+        "username": "Hardik ",
+        "email": "hardik@gmail.com",
+        "password": "123456",
+        "confirmPassword": "123456",
+        "number": "1144778855",
+        "address": "Ahemdabad"
+      },
+      "id": 2
+    }
+  ],
+  "inquiry": [
+    {
+      "user": {
+        "name": "Vansh Patel",
+        "email": "vanshpatel2505@gmail.com",
+        "phone": "91067925692",
+        "subject": "Hello tested??",
+        "message": "tested`"
+      },
+      "id": 1
+    },
+    {
+      "name": "Vansh Patel",
+      "email": "vanshpatel2505@gmail.com",
+      "phone": "9106792692",
+      "subject": "Tested Propose",
+      "message": "Tested Done.",
+      "id": 2
+    }
+  ],
+  "user-adress": [
+    {
+      "Full-Address": {
+        "Firstname": "vansh",
+        "Lastname": "baldha",
+        "email": "vanshpatel2505@gmail.com",
+        "phone": "91067925692",
+        "address": "9, Chitrakoot Near Aekta Tower - Vasna Berrage Road - Ahmedabad - 380007",
+        "Zipcode": "380007",
+        "state": "Gujarat",
+        "Country": "india",
+        "Additional": "Delevey askdl dsf"
+      },
+      "id": 1
+    },
+    {
+      "firstname": "Vansh",
+      "lastname": "Baldha",
+      "email": "vansh@gmail.com",
+      "phone": "9106792692",
+      "fulladdress": "Ahmedabad",
+      "zipcode": "380007",
+      "state": "AF",
+      "notes": "asdasdsad",
+      "value": {
+        "value": "IN",
+        "label": "India"
+      },
+      "id": 2
+    },
+    {
+      "firstname": "Mihir",
+      "lastname": "Ponkiya",
+      "email": "mihir@gmail.com",
+      "phone": "9898989898",
+      "fulladdress": "Ahmedabad india",
+      "zipcode": "380007",
+      "state": "AF",
+      "notes": "ASgs sddsf",
+      "value": {
+        "value": "IN",
+        "label": "India"
+      },
+      "id": 3
+    },
+    {
+      "firstname": "Mihir",
+      "lastname": "Ponkiya",
+      "email": "mihir@gmail.com",
+      "phone": "9898989898",
+      "fulladdress": "Ahmedabad india",
+      "zipcode": "380007",
+      "state": "AF",
+      "notes": "ASgs sddsf",
+      "value": {
+        "value": "IN",
+        "label": "India"
+      },
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "prodcutname": "Black T-Shirt For Woman",
+      "productprice": "133.2",
+      "ratings": "2",
+      "title": "Winter-Collection",
+      "productdescription": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+      "imagePath": "https://andshop-vue.netlify.app/_nuxt/img/1.7190443.png",
+      "multipleimages": [
+        {
+          "path": "https://andshop-vue.netlify.app/_nuxt/img/1.7190443.png"
+        },
+        {
+          "path": "https://andshop-vue.netlify.app/_nuxt/img/2.57e4309.png"
+        },
+        {
+          "path": "https://andshop-vue.netlify.app/_nuxt/img/8.32e12a7.png"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "prodcutname": "Blue Dress For Woman",
+      "productprice": "240",
+      "ratings": "2",
+      "title": "Winter-Collection",
+      "brand": "new",
+      "productdescription": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+      "imagePath": "https://andshop-vue.netlify.app/_nuxt/img/7.6533a8a.png",
+      "multipleimages": [
+        {
+          "path": "https://andshop-vue.netlify.app/_nuxt/img/7.6533a8a.png"
+        },
+        {
+          "path": "https://andshop-vue.netlify.app/_nuxt/img/11.54a1591.png"
+        },
+        {
+          "path": "https://andshop-vue.netlify.app/_nuxt/img/6.f19b14e.png"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "prodcutname": "v-neck dress",
+      "productprice": "130.5",
+      "ratings": "2",
+      "title": "Winter-Collection",
+      "brand": "new",
+      "productdescription": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+      "imagePath": "https://andshop-vue.netlify.app/_nuxt/img/15.45c0fb5.png",
+      "multipleimages": [
+        {
+          "path": "https://andshop-vue.netlify.app/_nuxt/img/1.7190443.png"
+        },
+        {
+          "path": "https://andshop-vue.netlify.app/_nuxt/img/10.d71c44e.png"
+        },
+        {
+          "path": "https://andshop-vue.netlify.app/_nuxt/img/8.32e12a7.png"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "prodcutname": "maxi dress",
+      "productprice": "126",
+      "ratings": "2",
+      "title": "Winter-Collection",
+      "productdescription": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+      "imagePath": "https://andshop-vue.netlify.app/_nuxt/img/6.f19b14e.png",
+      "multipleimages": [
+        {
+          "path": "https://andshop-vue.netlify.app/_nuxt/img/1.7190443.png"
+        },
+        {
+          "path": "https://andshop-vue.netlify.app/_nuxt/img/10.d71c44e.png"
+        },
+        {
+          "path": "https://andshop-vue.netlify.app/_nuxt/img/8.32e12a7.png"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "prodcutname": "fit-flare dress",
+      "productprice": "159.6",
+      "ratings": "2",
+      "title": "Winter-Collection",
+      "productdescription": "Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Nulla porttitoraccumsan tincidunt. Pellentesque in ipsum id orci porta dapibus.",
+      "imagePath": "https://andshop-vue.netlify.app/_nuxt/img/10.d71c44e.png",
+      "multipleimages": [
+        {
+          "path": "https://andshop-vue.netlify.app/_nuxt/img/1.7190443.png"
+        },
+        {
+          "path": "https://andshop-vue.netlify.app/_nuxt/img/10.d71c44e.png"
+        },
+        {
+          "path": "https://andshop-vue.netlify.app/_nuxt/img/8.32e12a7.png"
+        }
+      ],
+      "id": 5
+    }
+  ]
+}

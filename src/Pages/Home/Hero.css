@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Poppins:wght@500&display=swap');
+
+
+.hero-section-1 {
+    background-image: url(/src/assets/Images/Ecommerce-Hero.jpeg);
+    height: calc(100vh - 75px);
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section-2 {
+    background-image: url(/src/assets/Images/2.jpeg);
+    height: calc(100vh - 75px);
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section-3 {
+    background-image: url(/src/assets/Images/3.jpeg);
+    height: calc(100vh - 75px);
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section-4 {
+    background-image: url(/src/assets/Images/1.jpeg);
+    height: calc(100vh - 75px);
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section-heading h3 {
+    color: red;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0;
+}
+
+
+.hero-section-heading h1 {
+    color: #313131;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: -.2px;
+    line-height: 82px;
+    margin: 24px 0 39px;
+}
+
+.shop-now {
+    background-color: red;
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    transition: 0.4s;
+    padding: 18px 40px 16px;
+    text-decoration: none;
+}
+
+.shop-now:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* CUSTOMER CARE */
+.support-area {
+    padding-top: 30px;
+}
+
+.support-wrap-5.support-shape {
+    position: relative !important;
+    text-align: center;
+    margin-bottom: 30px;
+    border-right: 1px solid #f8a100;
+}
+
+.support-wrap-5 .support-content-5 h5 {
+    color: #494949;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 15px 0;
+}
+
+.support-wrap-5 .support-content-5 p {
+    color: #6a6a6a;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 2;
+    }
+}
+
+.swiper-slide {
+    animation: fadeIn 0.9s ease-in-out;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #ffffff !important;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: black !important;
+}
+
+.text-primary {
+    color: #fe4c1c !important;
+}
+
+.text-for-shipping p {
+    color: #8090b5;
+    line-height: 40px;
+}
+
+.swiper-wrapper {
+    transition-timing-function: linear;
+}

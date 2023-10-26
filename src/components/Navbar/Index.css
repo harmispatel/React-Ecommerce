@@ -1,0 +1,150 @@
+.nav-first>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-first>ul>li {
+    margin-right: 70px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+.nav-last>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-last>ul>li {
+    margin-right: 30px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav:hover {
+    color: black;
+}
+
+.FontAwesomeIcon {
+    font-weight: 900;
+}
+
+.item-count {
+    display: inline-block;
+    font-size: 11px;
+    background: #b8860b;
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    font-weight: 600;
+    position: absolute;
+    top: -6px;
+    right: -10px;
+    font-weight: 800;
+}
+
+.cart-icon a {
+    position: relative;
+}
+
+.header {
+    transition: background-color 0.3s ease;
+}
+
+.sticky-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fef5ef;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.header,
+.sticky-navbar {
+    transition: background-color 0.3s ease;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 7px 15px;
+}
+
+@media (max-width: 767px) {
+    .header-logo {
+        height: 40px;
+    }
+
+    .username {
+        display: none;
+    }
+
+    .navbar-logo {
+        order: 1;
+    }
+
+    .navbar-toggler {
+        order: 3;
+    }
+
+    .nav-last {
+        order: 2;
+        margin-left: 25px;
+    }
+
+    .andshop-navbar {
+        position: relative;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        top: 48px;
+        left: 0;
+        background-color: #fef5ef;
+        transition: 0.6s;
+    }
+
+    .andshop-navbar {
+        text-align: left !important;
+        width: 100%;
+        align-items: center;
+    }
+
+    .navbar-header {
+        padding: 0 5px;
+    }
+}
+
+.andshop-navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.header-navbar {
+    background-color: #fef5ef;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

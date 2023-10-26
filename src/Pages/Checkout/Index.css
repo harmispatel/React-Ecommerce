@@ -1,0 +1,113 @@
+
+
+
+/* Orders OverView */
+.order_review {
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .07059);
+    padding: 30px;
+}
+
+.table-responsive {
+    position: relative;
+    z-index: 1;
+}
+
+.b-table-sticky-header>.table,
+.table-responsive>.table,
+[class*=table-responsive-]>.table {
+    margin-bottom: 0;
+}
+
+.order_review .table-responsive table thead {
+    background: #f79837;
+    text-align: center;
+}
+
+.order_table table thead tr th {
+    min-width: 50%;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.order_table thead th {
+    color: #fff;
+}
+
+.order_table table tbody tr td,
+.order_table table tfoot tr td,
+.order_table table tfoot tr th {
+    min-width: 50%;
+    text-align: left !important;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* PAYMENT METHOD */
+.payment_method {
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.payment_option .custome-radio {
+    margin-bottom: 10px;
+}
+
+.payment_option .custome-radio .form-check-label {
+    color: #292b2c;
+    font-weight: 600;
+}
+
+.custome-checkbox .form-check-label,
+.custome-radio .form-check-label {
+    position: relative;
+    cursor: pointer;
+}
+
+.payment-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #777c87;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.custome-radio .form-check-label:before {
+    content: "";
+    border: 1px solid #908f8f;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    border-radius: 100%;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.custome-checkbox .form-check-input,
+.custome-radio .form-check-input {
+    display: none;
+}
+
+.custome-radio input[type=radio]:checked+.form-check-label:after {
+    opacity: 1;
+}
+
+.custome-radio input[type=radio]+.form-check-label:after {
+    content: "";
+    background-color: #f79837;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    position: absolute;
+    top: 7px;
+    left: 3px;
+    opacity: 0;
+}
+
+.country-dropdown{
+    cursor: pointer;
+}

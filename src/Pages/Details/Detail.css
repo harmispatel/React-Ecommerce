@@ -1,0 +1,213 @@
+.detail-section {
+    padding: 40px 0;
+}
+
+.modal_product_content_one h4 {
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.modal_product_content_one h4 del {
+    padding-left: 20px;
+    color: #f79837;
+}
+
+.modal_product_content_one p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #777c87;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+}
+
+.custom-lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 90%);
+    z-index: 9999;
+}
+
+
+
+.custom_lightbox_inr {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.custom_lightbox_inr .close-button {
+    position: absolute;
+    top: 20px;
+    right: 38px;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b61827;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.lightbox-navigation .btn {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    transform: translate(0, -50%);
+    font-size: 30px;
+}
+
+.lightbox-navigation .btn:first-child {
+    left: 0;
+}
+
+.lightbox-navigation .btn:last-child {
+    right: 0;
+}
+
+.variable-single-item {
+    margin-top: 15px;
+}
+
+
+.links_Product_areas {
+    margin-top: 30px;
+}
+
+.action-wishlist {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: none;
+}
+
+.theme-btn-one {
+    margin-top: 20px;
+}
+
+.detail-btn {
+    margin-left: 20px;
+}
+
+.product-qun {
+    margin-left: 4rem;
+    padding-top: 23px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.on {
+    color: #f79837;
+}
+
+.off {
+    color: #ccc;
+}
+
+.star {
+    font-size: 30px;
+}
+
+.color-variant li a {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 2px;
+    margin-right: 10px;
+    transition: all .1s ease;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+.react-multiple-carousel__arrow::before {
+    font-size: 5px;
+    color: black !important;
+    display: block;
+    font-family: revicons;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+
+.react-multiple-carousel__arrow {
+    position: absolute;
+    outline: 0;
+    transition: all .5s;
+    border-radius: 35px;
+    z-index: 1000;
+    border: 0;
+    background: none !important;
+    min-width: 43px;
+    min-height: 43px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.lightbox-navigation .btn:first-child {
+    left: 40px;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.lightbox-navigation .btn:last-child {
+    right: 40px;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    color: black;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.lightbox-navigation .btn:last-child:hover,
+.lightbox-navigation .btn:first-child:hover {
+    background-color: black;
+    color: white;
+}
+
+.lightbox-navigation .btn:first-child:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.lightbox-navigation .btn:last-child:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.zoom-image {
+    max-width: 700px !important;
+}
