@@ -118,48 +118,6 @@ const Hero = ({ heroimages }) => {
           </SwiperSlide>
         </Swiper>
       </div>
-
-      {/* <div class="support-area">
-          <div class="container">
-            <div class="border-bottom">
-              <div class="row feature-icon-two-wrap">
-                <div class="col-md-4">
-                  <div class="support-wrap-5 support-shape text-center">
-                    <div class="support-content-5">
-                      <h5>Free Shipping</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetu adipisicing elit
-                        sed
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="support-wrap-5 support-shape mb-30 text-center">
-                    <div class="support-content-5">
-                      <h5>Support 24/7</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetu adipisicing elit
-                        sed
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="support-wrap-5 support-shape mb-30 text-center">
-                    <div class="support-content-5">
-                      <h5>Money Return</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetu adipisicing elit
-                        sed
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
       <section class="pt-5">
         <div class="container text-for-shipping">
           <div class="row">
