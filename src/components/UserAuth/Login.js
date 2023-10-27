@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Helmet } from "react-helmet-async";
 import "./Index.css";
+import { Helmet } from "react-helmet-async";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -47,11 +47,6 @@ const Login = () => {
               users.user?.password === user.password
           );
           if (userData) {
-            // toast.success("Successfully logged in", {
-            //   position: toast.POSITION.TOP_RIGHT,
-            //   autoClose: 500,
-            //   transition: Flip,
-            // });
             Swal.fire({
               title: "Successfully logged in",
               icon: "success",

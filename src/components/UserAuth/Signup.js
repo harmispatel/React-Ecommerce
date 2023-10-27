@@ -1,8 +1,8 @@
 import React, { useState } from "react";
+import "./Index.css";
 import { Helmet } from "react-helmet-async";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-import "./Index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-regular-svg-icons";
 import { ToastContainer, toast } from "react-toastify";
@@ -11,6 +11,7 @@ function Signup() {
   const navigate = useNavigate();
   const [type, setType] = useState("password");
   const [icon, setIcon] = useState(faEyeSlash);
+  const [passerror, setPassError] = useState("");
   const [formData, setFormData] = useState({
     username: "",
     email: "",
@@ -28,8 +29,6 @@ function Signup() {
     numberError: "",
     addressError: "",
   });
-
-  const [passerror, setPassError] = useState("");
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -184,7 +183,11 @@ function Signup() {
                       onChange={handleInputChange}
                       value={formData.username}
                     />
-                    <div className="error">{formErrors.usernameError}</div>
+                    {formData.username ? (
+                      ""
+                    ) : (
+                      <div className="error">{formErrors.usernameError}</div>
+                    )}
                   </div>
                   <div className="default-form-box">
                     <label>
@@ -198,7 +201,11 @@ function Signup() {
                       onChange={handleInputChange}
                       value={formData.email}
                     />
-                    <div className="error">{formErrors.emailError}</div>
+                    {formData.email ? (
+                      ""
+                    ) : (
+                      <div className="error">{formErrors.emailError}</div>
+                    )}
                   </div>
                   <div className="default-form-box">
                     <label htmlFor="password">
@@ -214,8 +221,11 @@ function Signup() {
                         value={formData.password}
                       />
                     </div>
-
-                    <div className="error">{formErrors.passwordError}</div>
+                    {formData.password ? (
+                      ""
+                    ) : (
+                      <div className="error">{formErrors.passwordError}</div>
+                    )}
                   </div>
                   <div className="default-form-box">
                     <label htmlFor="password">
@@ -246,10 +256,13 @@ function Signup() {
                         )}
                       </div>
                     </div>
-
-                    <div className="error">
-                      {formErrors.confirmPasswordError}
-                    </div>
+                    {formData.confirmPassword ? (
+                      ""
+                    ) : (
+                      <div className="error">
+                        {formErrors.confirmPasswordError}
+                      </div>
+                    )}
                   </div>
                   <div className="default-form-box">
                     <label htmlFor="phone">
@@ -264,7 +277,11 @@ function Signup() {
                         value={formData.number}
                         onChange={handleInputChange}
                       />
-                      <div className="error">{formErrors.numberError}</div>
+                      {formData.number ? (
+                        ""
+                      ) : (
+                        <div className="error">{formErrors.numberError}</div>
+                      )}
                     </div>
                   </div>
                   <div className="default-form-box">
@@ -279,7 +296,11 @@ function Signup() {
                         value={formData.address}
                         onChange={handleInputChange}
                       ></textarea>
-                      <div className="error">{formErrors.addressError}</div>
+                      {formData.address ? (
+                        ""
+                      ) : (
+                        <div className="error">{formErrors.addressError}</div>
+                      )}
                     </div>
                   </div>
                   <div className="login_submit">

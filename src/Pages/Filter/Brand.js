@@ -18,27 +18,27 @@ const Brand = () => {
         </label>
         <label class="custom_boxed form-check-label">
           Adidas
-          <input type="radio" name="flexRadioDefault" />{" "}
+          <input type="radio" name="flexRadioDefault" />
           <span class="checkmark form-check-input"></span>
         </label>
         <label class="custom_boxed form-check-label">
           Calvin Klein
-          <input type="radio" name="flexRadioDefault" />{" "}
+          <input type="radio" name="flexRadioDefault" />
           <span class="checkmark form-check-input"></span>
         </label>
         <label class="custom_boxed form-check-label">
           Nike  
-          <input type="radio" name="flexRadioDefault" />{" "}
+          <input type="radio" name="flexRadioDefault" />
           <span class="checkmark form-check-input"></span>
         </label>
         <label class="custom_boxed form-check-label">
           Geox
-          <input type="radio" name="flexRadioDefault" />{" "}
+          <input type="radio" name="flexRadioDefault" />
           <span class="checkmark form-check-input"></span>
         </label>
         <label class="custom_boxed form-check-label">
           River Island
-          <input type="radio" name="flexRadioDefault" />{" "}
+          <input type="radio" name="flexRadioDefault" />
           <span class="checkmark form-check-input"></span>
         </label>
         <div class="clear_button">

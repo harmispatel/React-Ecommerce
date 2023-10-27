@@ -11,14 +11,13 @@ import CartContext from "../../Context/Cart/CartContext";
 import WishlistContext from "../../WishlistContext/WishlistContext";
 
 const Navbar = () => {
+  const Email = localStorage.getItem("Email");
   const { cart } = useContext(CartContext);
   const { wishlist } = useContext(WishlistContext);
   const [user, setUser] = useState();
   const [isSticky, setIsSticky] = useState(false);
   const navigate = useNavigate();
   const [isLoggedOut, setIsLoggedOut] = useState(false);
-
-  const Email = localStorage.getItem("Email");
 
   const handleLogout = () => {
     localStorage.removeItem("Email");
@@ -37,7 +36,6 @@ const Navbar = () => {
           (userName) => userName?.user?.email === Email
         );
         setUser(userData);
-        // console.log("userName", user?.user?.username);
       })
       .catch((error) => console.log(error));
   };
@@ -93,18 +91,18 @@ const Navbar = () => {
                   </li>
                   <li class="nav-item">
                     <Link to="/store" className="nav-link">
-                      Store{" "}
+                      Store
                     </Link>
                   </li>
 
                   <li class="nav-item">
                     <Link to="/about" className="nav-link">
-                      About{" "}
+                      About
                     </Link>
                   </li>
                   <li class="nav-item">
                     <Link to="/contact" className="nav-link">
-                      Contact{" "}
+                      Contact
                     </Link>
                   </li>
                 </ul>
@@ -114,9 +112,7 @@ const Navbar = () => {
                   {Email && (
                     <>
                       <li className="username">
-                        {/* <button type="submit" className="btn btn-outline-dark"> */}
                         <span> Hello! {user?.user?.username} </span>
-                        {/* </button> */}
                       </li>
                       <li className="cart-icon">
                         <Link to="/wishlist">
@@ -200,7 +196,6 @@ const Navbar = () => {
           </nav>
         </div>
       </header>
-
       <Outlet />
     </>
   );

@@ -33,18 +33,18 @@ const ErrorPage = () => {
           <div class="row">
             <div class="col-md-6 offset-md-3">
               <div class="erorr_wrapper">
-                <h1>404</h1>{" "}
+                <h1>404</h1>
                 <h3>
                   We are sorry, the page you've requested is not available!
-                </h3>{" "}
+                </h3>
                 <form>
                   <div class="input-group">
-                    <input type="text" class="form-control" />{" "}
+                    <input type="text" class="form-control" />
                     <button>
                       <i class="fas fa-search"></i>
                     </button>
                   </div>
-                </form>{" "}
+                </form>
                 <Link to="/" class="backtobtn">
                   Back To Home Page
                 </Link>

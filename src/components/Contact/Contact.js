@@ -159,7 +159,7 @@ const Contact = () => {
                       <FontAwesomeIcon icon={faEnvelope} className="icon" />
                       <div className="contact">
                         <div class="contact_widget">
-                          <a href="mailto:demo@gmail.com">demo@gmail.com</a>{" "}
+                          <a href="mailto:demo@gmail.com">demo@gmail.com</a>
                           <a href="mailto:demo@gmail.com">demo@gmail.com</a>
                         </div>
                       </div>

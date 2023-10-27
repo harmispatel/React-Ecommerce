@@ -75,3 +75,12 @@ select {
     box-shadow: none;
     border: 1px solid #f79837;
 }
+
+/* PHONE NUMBER COMPONENT CSS */
+.otp_box input {
+    width: 50px !important;
+    height: 50px !important;
+    align-items: center;
+    justify-content: center !important;
+    font-size: 25px;
+}

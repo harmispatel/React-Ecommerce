@@ -38,6 +38,45 @@
         "address": "Ahemdabad"
       },
       "id": 2
+    },
+    {
+      "user": {
+        "username": "Mihir Patel",
+        "email": "mihirpatel123@gmail.com",
+        "password": "123456",
+        "confirmPassword": "123456",
+        "number": "9929944544",
+        "address": "Ahmedabad,gujarat,india"
+      },
+      "id": 3
+    },
+    {
+      "phone": "+919737392505",
+      "id": 4
+    },
+    {
+      "phone": "+911245788989",
+      "id": 5
+    },
+    {
+      "phone": "+917096794393",
+      "id": 6
+    },
+    {
+      "phone": "+917096794393",
+      "id": 7
+    },
+    {
+      "phone": "+917096794393",
+      "id": 8
+    },
+    {
+      "phone": "+917096794393",
+      "id": 9
+    },
+    {
+      "phone": "+917096794393",
+      "id": 10
     }
   ],
   "inquiry": [

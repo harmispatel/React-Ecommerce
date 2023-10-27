@@ -51,7 +51,7 @@ const Details = () => {
   const handleAddToCart = (product) => {
     addToCart(product);
     if (!isInCart(product)) {
-      toast.success("Successfully Added !", {
+      toast.success("Successfully Added!", {
         position: toast.POSITION.TOP_RIGHT,
         autoClose: 500,
         transition: Flip,
@@ -334,7 +334,7 @@ const Details = () => {
                           size="xl"
                           onClick={() => decrease(productDetails)}
                         />
-                        <label className="quantity">1</label>{" "}
+                        <label className="quantity">1</label>
                         <FontAwesomeIcon
                           icon={faCirclePlus}
                           size="xl"

@@ -91,7 +91,6 @@ const Card = (items) => {
                   src={imagePath + "?v=" + id}
                   alt={id}
                   class="inner-img w-100"
-                  // style={{ width: "300px", height: "auto" }}
                 />
               </Link>
               <span class="badges">

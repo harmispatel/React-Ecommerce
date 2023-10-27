@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import footerlogo from "../../assets/Images/Navbar-Logo.png";
+import payment from "../../assets/Images/payment.d633c89.png";
 import { Link } from "react-router-dom";
 import "./Index.css";
-import payment from "../../assets/Images/payment.d633c89.png";
 import {
   faFacebookF,
   faGooglePlusG,

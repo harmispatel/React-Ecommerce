@@ -64,15 +64,15 @@ const ComingSoon = ({ targetDate }) => {
                     <ul id="demo">
                       <li>
                         <span class="timer-num">{timeRemaining.days}</span>Days
-                      </li>{" "}
+                      </li>
                       <li>
                         <span class="timer-num">{timeRemaining.hours}</span>
                         Hours
-                      </li>{" "}
+                      </li>
                       <li>
                         <span class="timer-num">{timeRemaining.minutes}</span>
                         Minutes
-                      </li>{" "}
+                      </li>
                       <li>
                         <span class="timer-num">{timeRemaining.seconds}</span>
                         Seconds

@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
+import "./Index.css";
 import { Link, useNavigate } from "react-router-dom";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
-import OTPInput from "react-otp-input";
+import OtpInput from "react-otp-input";
 import {
   RecaptchaVerifier,
   getAuth,
@@ -51,7 +52,7 @@ const PhoneSignUp = () => {
           .then((confirmationResult) => {
             window.confirmationResult = confirmationResult;
             setShow(true);
-            toast.success("OTP has been sent");  
+            toast.success("OTP has been sent");
             Swal.fire({
               title: "OTP has been sent",
               icon: "success",
@@ -154,15 +155,33 @@ const PhoneSignUp = () => {
                             <>
                               <form onSubmit={handleOtpVerification}>
                                 <div className="form-group my-3 otp_box">
-                                  <OTPInput
+                                  <OtpInput
                                     value={otp}
                                     className="form-control"
                                     onChange={setOtp}
+                                    separator={
+                                      <span style={{ width: "8px" }}></span>
+                                    }
                                     shouldAutoFocus={true}
                                     numInputs={6}
-                                    renderSeparator={<span>-</span>}
+                                    placeholder="000000"
+                                    isInputNum={true}
+                                    inputStyle={{
+                                      border: "1px solid black",
+                                      borderRadius: "8px",
+                                      width: "54px",
+                                      height: "54px",
+                                      fontSize: "20px",
+                                      color: "#000",
+                                      fontWeight: "400",
+                                      caretColor: "blue",
+                                    }}
+                                    focusStyle={{
+                                      border: "1px solid #CFD3DB",
+                                      outline: "none",
+                                    }}
                                     renderInput={(props) => (
-                                      <input {...props} />
+                                      <input {...props} type="tel" />
                                     )}
                                   />
                                 </div>

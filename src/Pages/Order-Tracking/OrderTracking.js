@@ -46,32 +46,32 @@ const OrderTracking = () => {
           <div class="row">
             <div class="col-lg-6 offset-lg-3">
               <div class="order_tracking_wrapper">
-                <h4>Order Tracking</h4>{" "}
+                <h4>Order Tracking</h4>
                 <p>
                   To track your order please enter your Order ID in the box
                   below and press the "Track" button.
-                </p>{" "}
+                </p>
                 <form>
                   <div class="form-group">
-                    <label for="order_id">Order ID</label>{" "}
+                    <label for="order_id">Order ID</label>
                     <input
                       type="text"
                       id="order_id"
                       name="order_id"
                       placeholder="Found in your order Confirmation email"
                       class="form-control"
-                    />{" "}
-                  </div>{" "}
+                    />
+                  </div>
                   <div class="form-group">
-                    <label for="email">Billing Email</label>{" "}
+                    <label for="email">Billing Email</label>
                     <input
                       type="email"
                       id="email"
                       name="email"
                       placeholder="Enter Your Email Address"
                       class="form-control"
-                    />{" "}
-                  </div>{" "}
+                    />
+                  </div>
                   <div class="order_track_button">
                     <button class="theme-btn-one btn-black-overlay btn_md">
                       Track
